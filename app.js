@@ -12,7 +12,7 @@ app.get('/index', (req, res, next) => {   // only listens for GET request
 });
 
 app.get('/about', (req, res, next) => {
-    res.sendFile(__dirname + '/public/views/index.html')
+    res.sendFile(__dirname + '/public/view.about.html')
 })
 
 app.listen(port, () => {
